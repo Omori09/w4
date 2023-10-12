@@ -30,6 +30,8 @@ function result() {
   if (customName.value !== '') {
     const name = customName.value;
     newStory = newStory.replace('Bob', name);
+    newStory = newStory.replace('Bob', name);
+    newStory = newStory.replace('Bob', name);
   }
 
   // if (document.getElementById("uk").checked) {
